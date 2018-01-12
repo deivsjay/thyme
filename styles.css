@@ -1,4 +1,8 @@
 /*--------- GLOBAL ---------*/
+html, body {
+    height: 100%;
+}
+
 body {
     font-family: "Arial";
     font-weight: 400;
@@ -6,6 +10,11 @@ body {
     overflow-x: hidden;
     margin: 0;
     padding: 0;
+/*
+    background-image: url("img/image6.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+*/
 }
 
 /*--------- HEADER -----------*/
@@ -56,9 +65,44 @@ header a:hover {
     color: #BD9C58;
 }
 
+/*
 header img {
     width: 100%;
     margin: 0;
     padding: 0;
     position: fixed;
+    overflow: scroll;
+}
+
+.header-image {
+    position: absolute;
+    background-image: url("img/image6.jpg");
+    background-size: cover;
+    width: 650px;
+    height: 200px;
+    position: fixed;
+}
+*/
+
+/*-------- TUTORIAL ---------*/
+
+.sect {
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.subSection {
+    height: 50%;
+    background-color: bisque ;
+}
+
+.fixed-one {
+    background-image: url("img/image6.jpg");
+    padding-top: 50px;
+}
+
+.fixed-two {
+    background-image: url("img/image5.jpg");
 }
