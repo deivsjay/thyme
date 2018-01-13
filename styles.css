@@ -63,7 +63,7 @@ header a:hover {
 /*-------- FIXED IMAGES ---------*/
 
 .sect {
-    height: 100%;
+    height: 50%;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -75,6 +75,7 @@ header a:hover {
 }
 
 .fixed-one {
+    height: 60%;
     background-image: url("img/image6.jpg");
     background-position: left 40px;
 }
@@ -150,7 +151,7 @@ tr td {
 
 .text-pic {
     position: absolute;
-    top: 50%;
+    top: 38%;
     left: 50%;
     transform: translate(-50%, -50%);
     background-color: white;
