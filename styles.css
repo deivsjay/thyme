@@ -10,11 +10,6 @@ body {
     overflow-x: hidden;
     margin: 0;
     padding: 0;
-/*
-    background-image: url("img/image6.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-*/
 }
 
 /*--------- HEADER -----------*/
@@ -65,25 +60,6 @@ header a:hover {
     color: #BD9C58;
 }
 
-/*
-header img {
-    width: 100%;
-    margin: 0;
-    padding: 0;
-    position: fixed;
-    overflow: scroll;
-}
-
-.header-image {
-    position: absolute;
-    background-image: url("img/image6.jpg");
-    background-size: cover;
-    width: 650px;
-    height: 200px;
-    position: fixed;
-}
-*/
-
 /*-------- TUTORIAL ---------*/
 
 .sect {
@@ -95,12 +71,12 @@ header img {
 
 .subSection {
     height: 50%;
-    background-color: bisque ;
+    background-color: white ;
 }
 
 .fixed-one {
     background-image: url("img/image6.jpg");
-    padding-top: 50px;
+    background-position: left 40px;
 }
 
 .fixed-two {
